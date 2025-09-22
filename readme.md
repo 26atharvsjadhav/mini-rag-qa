@@ -24,7 +24,7 @@ The goal is to show **before/after improvements** with a simple, reproducible sy
 
 1. Clone the repo:
 
-```bash
+``bash
 git clone https://github.com/26atharvsjadhav/mini-rag-qa
 
 ---
@@ -48,6 +48,16 @@ python app.py
 ## Run this in Browser
 
 http://127.0.0.1:8000/docs
+
+## Sample Input 
+
+{
+  "q": "What are the main safety requirements for machinery according to EU regulation 2023/1230?",                              // Your question text
+  "k": 5,                                                                                                                        // Number of top chunks to retrieve (optional, default 5)
+  "mode": "rerank"                                                                                                                // "baseline" or "rerank"
+} 
+
+
 
 ## Sample 8 Question Result Table
 
