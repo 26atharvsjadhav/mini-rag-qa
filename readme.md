@@ -79,7 +79,9 @@ mini-rag-qa/
 │─ data/
 │   ├─ industrial-safety-pdfs/   # unzip your PDFs here
 │   └─ sources.json
-│─ db.sqlite                     # will be created after ingest
+│─ db.sqlite                     # Chunks database          (Will be created after running ingest.py)
+│─   embeddings.npy              # Precomputed embeddings   (Will be created later)
+│─ rowids.pkl                    # Row IDs for embeddings   (Will be created later)
 │─ ingest.py                     # chunk PDFs & populate SQLite
 │─ search.py                     # baseline FAISS search
 │─ reranker.py                   # hybrid reranker
