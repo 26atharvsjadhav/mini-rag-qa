@@ -1,0 +1,11 @@
+fastapi
+pydantic
+uvicorn
+faiss-cpu
+sentence-transformers
+sqlite-utils
+scikit-learn
+flask
+PyPDF2
+rank_bm25
+tiktoken
