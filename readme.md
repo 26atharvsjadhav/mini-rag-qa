@@ -53,7 +53,9 @@ http://127.0.0.1:8000/docs
 
 {
   "q": "What are the main safety requirements for machinery according to EU regulation 2023/1230?",                              // Your question text
+  
   "k": 5,                                                                                                                        // Number of top chunks to retrieve (optional, default 5)
+  
   "mode": "rerank"                                                                                                                // "baseline" or "rerank"
 } 
 
